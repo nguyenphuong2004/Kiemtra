@@ -11,7 +11,7 @@ import java.util.*;
  */
 public class Student extends Person{
     private int id;
-    private Address address;
+    private Address address = new Address();
     private double gpa;
 public Student(){
     
